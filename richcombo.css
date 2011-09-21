@@ -35,9 +35,6 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 .cke_skin_drupal .cke_rcombo a:active,
 .cke_skin_drupal .cke_rcombo a:hover
 {
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
 	background-image: url(images/sprites.png);
 	_background-image: url(images/sprites_ie6.png);
 	background-repeat: repeat-x;
@@ -45,7 +42,7 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 	border-bottom:1px solid #DAD9D9;
 	border-right:1px solid #DAD9D9;
 	float:left;
-	padding: 2px;
+	padding: 1px 2px 2px;
 	height: 21px;
 	margin-right: 6px;
 }

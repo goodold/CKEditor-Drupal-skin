@@ -107,9 +107,6 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 
 .cke_skin_drupal .cke_toolgroup
 {
-	-moz-border-radius:5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
  border: 1px solid #ccc;
 	background-image: url(images/sprites.png);
 	_background-image: url(images/sprites_ie6.png);

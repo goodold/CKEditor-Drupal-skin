@@ -25,10 +25,9 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 	vertical-align: baseline;
 	white-space: nowrap;
 	cursor: auto;
+	outline: 0;
 	color: #000;
-
-    font-size: 12px;
-    font-family: Arial,Helvetica,Tahoma,Verdana,Sans-Serif;
+	font: normal 12px "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 }
 
 .cke_skin_drupal .cke_rtl *,
