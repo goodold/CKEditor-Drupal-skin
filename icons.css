@@ -58,20 +58,15 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 	background-position: 0 -288px;
 }
 
-.cke_skin_drupal .cke_button_bold .cke_icon
-{
-	background-position: 0 -304px;
-}
+.cke_skin_drupal .cke_button_bold .cke_icon { background-position: 0 0; }
+.cke_skin_drupal .cke_button_bold .cke_icon:hover { background-position: 0 -28px; }
 
-.cke_skin_drupal .cke_button_italic .cke_icon
-{
-	background-position: 0 -320px;
-}
+.cke_skin_drupal .cke_button_italic .cke_icon { background-position: -27px 0; }
+.cke_skin_drupal .cke_button_italic .cke_icon:hover { background-position: -27px -28px; }
 
-.cke_skin_drupal .cke_button_underline .cke_icon
-{
-	background-position: 0 -336px;
-}
+.cke_skin_drupal .cke_button_underline .cke_icon { background-position: -54px 0; }
+.cke_skin_drupal .cke_button_underline .cke_icon:hover { background-position: -54px -28px; }
+
 
 .cke_skin_drupal .cke_button_strike .cke_icon
 {
@@ -93,35 +88,28 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 	background-position: 0 -608px;
 }
 
-.cke_skin_drupal .cke_button_horizontalrule .cke_icon
-{
-	background-position: 0 -624px;
-}
+.cke_skin_drupal .cke_button_horizontalrule .cke_icon { background-position: -190px 0; }
+.cke_skin_drupal .cke_button_horizontalrule .cke_icon:hover { background-position: -190px -28px; }
 
 .cke_skin_drupal .cke_button_smiley .cke_icon
 {
 	background-position: 0 -640px;
 }
 
-.cke_skin_drupal .cke_button_link .cke_icon
-{
-	background-position: 0 -528px;
-}
+.cke_skin_drupal .cke_button_link .cke_icon { background-position: -458px 0; }
+.cke_skin_drupal .cke_button_link .cke_icon:hover { background-position: -458px -28px; }
 
-.cke_skin_drupal .cke_button_unlink .cke_icon
-{
-	background-position: 0 -544px;
-}
+.cke_skin_drupal .cke_button_unlink .cke_icon { background-position: -458px 0; }
+.cke_skin_drupal .cke_button_unlink .cke_icon:hover { background-position: -458px -28px; }
+
 
 .cke_skin_drupal .cke_button_anchor .cke_icon
 {
 	background-position: 0 -560px;
 }
 
-.cke_skin_drupal .cke_button_image .cke_icon
-{
-	background-position: 0 -576px;
-}
+.cke_skin_drupal .cke_button_image .cke_icon { background-position: -324px 0; }
+.cke_skin_drupal .cke_button_image .cke_icon:hover { background-position: -324px -28px; }
 
 .cke_skin_drupal .cke_button_flash .cke_icon
 {
@@ -238,15 +226,11 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 	background-position: 0 -80px;
 }
 
-.cke_skin_drupal .cke_button_numberedlist .cke_icon
-{
-	background-position: 0 -400px;
-}
+.cke_skin_drupal .cke_button_numberedlist .cke_icon { background-position: -136px 0; }
+.cke_skin_drupal .cke_button_numberedlist .cke_icon:hover { background-position: -136px -28px; }
 
-.cke_skin_drupal .cke_button_bulletedlist .cke_icon
-{
-	background-position: 0 -416px;
-}
+.cke_skin_drupal .cke_button_bulletedlist .cke_icon { background-position: -109px 0; }
+.cke_skin_drupal .cke_button_bulletedlist .cke_icon:hover { background-position: -109px -28px; }
 
 .cke_skin_drupal .cke_mixed_dir_content .cke_button_numberedlist .cke_icon
 {

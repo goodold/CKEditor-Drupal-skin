@@ -57,8 +57,8 @@ body.cke_panel_frame
 ul.cke_panel_list
 {
 	list-style-type: none;
-	margin: 3px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	white-space: nowrap;
 }
 
@@ -71,7 +71,6 @@ li.cke_panel_listItem
 {
 	padding: 2px;
 	display: block;
-	border: 1px solid #fff;
 	color: inherit !important;
 	text-decoration: none;
 	overflow: hidden;
@@ -96,7 +95,7 @@ li.cke_panel_listItem
 
 .cke_panel_listItem.cke_selected a
 {
-	border: 1px solid #ccc;
+  color: #fff!important;
 	background-color: #e9f5ff;
 }
 
@@ -104,8 +103,8 @@ li.cke_panel_listItem
 .cke_panel_listItem a:focus,
 .cke_panel_listItem a:active
 {
-	border-color: #316ac5;
-	background-color: #dff1ff;
+	background-color: #3875D7;
+  color: #fff!important;
 }
 
 .cke_hc .cke_panel_listItem.cke_selected a,
@@ -113,20 +112,12 @@ li.cke_panel_listItem
 .cke_hc .cke_panel_listItem a:focus,
 .cke_hc .cke_panel_listItem a:active
 {
-	border-width: 3px;
 	padding: 0px;
 }
 
 .cke_panel_grouptitle
 {
-	font-size: 11px;
-	font-family: 'Microsoft Sans Serif' , Tahoma, Arial, Verdana, Sans-Serif;
-	font-weight: bold;
-	white-space: nowrap;
-	background-color: #dcdcdc;
-	color: #000;
-	margin:0px;
-	padding:3px;
+  display: none;
 }
 
 .cke_panel_listItem p,
