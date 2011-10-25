@@ -26,12 +26,9 @@ span.cke_skin_drupal
 
 .cke_skin_drupal .cke_wrapper
 {
- border: 1px solid #ccc;
-	background-color: #f2f2f2;
 	display: block;
 	/* IE Quirks: editor chrome overflow horizontally without an explicit width. */
 	_display: inline-block;
-	padding: 5px;
 }
 
 .cke_shared .cke_skin_drupal .cke_wrapper
